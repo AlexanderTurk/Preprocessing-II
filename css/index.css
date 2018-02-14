@@ -147,15 +147,6 @@ h5 {
   width: 880px;
   margin: auto;
 }
-.button-services {
-  color: black;
-  width: 200px;
-  height: 100px;
-}
-.button-services:hover {
-  color: white;
-  width: 250px;
-}
 header {
   width: 100%;
   display: flex;
