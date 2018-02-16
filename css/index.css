@@ -205,12 +205,12 @@ header .logo {
   color: white;
 }
 .cta img {
-  -webkit-box-shadow: 10px 10px 5px grey;
-  -moz-box-shadow: 10px 10px 5px grey;
-  box-shadow: 10px 10px 5px grey;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  border-radius: 25px;
+  -webkit-box-shadow: 10px 10px 5px red;
+  -moz-box-shadow: 10px 10px 5px red;
+  box-shadow: 10px 10px 5px red;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
@@ -237,7 +237,7 @@ header .logo {
 }
 .main-content .top-content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .main-content .middle-img {
   display: block;
@@ -248,7 +248,7 @@ header .logo {
   justify-content: space-around;
 }
 .main-content .bottom-content p {
-  padding-right: 20px;
+  padding-right: 35px;
 }
 .contact p {
   margin: 40px 0;
