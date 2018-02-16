@@ -168,6 +168,13 @@ header nav ul li a:hover {
 header .logo {
   align-self: flex-end;
   margin: 28px 0 0 91px;
+  background: red;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }
 .cta {
   display: flex;
@@ -197,6 +204,17 @@ header .logo {
   background: black;
   color: white;
 }
+.cta img {
+  -webkit-box-shadow: 10px 10px 5px grey;
+  -moz-box-shadow: 10px 10px 5px grey;
+  box-shadow: 10px 10px 5px grey;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
 .main-content {
   border-top: 2px solid black;
   border-bottom: 2px solid black;
@@ -204,6 +222,18 @@ header .logo {
   padding: 35px 0;
   font-size: 16px;
   line-height: 18px;
+}
+@media (max-width: 768px) {
+  .main-content {
+    background: grey;
+    color: black;
+  }
+}
+@media (max-width: 400px) {
+  .main-content {
+    backround: black;
+    color: white;
+  }
 }
 .main-content .top-content {
   display: flex;

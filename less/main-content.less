@@ -1,5 +1,7 @@
 // Main Content Styles
 
+
+
 .main-content {
    border-top: 2px solid black; 
    border-bottom: 2px solid black;
@@ -7,7 +9,16 @@
    padding: 35px 0;
    font-size: 16px;
    line-height: 18px;
+  
+   @media @tablet {
+    background: grey;
+    color: black;
+}
 
+    @media @phone {
+    backround: black;
+    color: white;
+}
    .top-content {
         display: flex;
         justify-content: space-around;
