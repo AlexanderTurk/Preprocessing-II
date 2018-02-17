@@ -201,8 +201,8 @@ header .logo {
   cursor: pointer;
 }
 .cta .cta-text button:hover {
-  background: black;
-  color: white;
+  background: orange;
+  color: blue;
 }
 .cta img {
   -webkit-box-shadow: 10px 10px 5px red;
