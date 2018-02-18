@@ -151,6 +151,18 @@ h5 {
   width: 880px;
   margin: auto;
 }
+@media (max-width: 768px) {
+  .main-content {
+    background: grey;
+    color: black;
+  }
+}
+@media (max-width: 400px) {
+  .main-content {
+    backround: black;
+    color: white;
+  }
+}
 header {
   width: 100%;
   display: flex;
@@ -222,7 +234,7 @@ header .logo {
   margin: 75px 0 35px 0;
   padding: 35px 0;
   font-size: 16px;
-  line-height: 18px;
+  line-height: 18pvx;
 }
 @media (max-width: 768px) {
   .main-content {
@@ -253,6 +265,18 @@ header .logo {
 }
 .contact p {
   margin: 40px 0;
+}
+@media (max-width: 768px) {
+  .main-content {
+    background: grey;
+    color: black;
+  }
+}
+@media (max-width: 400px) {
+  .main-content {
+    backround: black;
+    color: white;
+  }
 }
 footer {
   text-align: center;
