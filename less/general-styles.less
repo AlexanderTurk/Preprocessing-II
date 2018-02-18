@@ -17,11 +17,26 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 1px;
 }
 
+.skew (20, @deg2) {
+	-webkit-transform:       skew(@30, @30);
+	-moz-transform: 	 skew(@30, @d30);
+	-ms-transform: 		 skew(@30, @30);
+	-o-transform: 		 skew(@30, @30);
+}
 .container {
     width: 880px;
     margin: auto;
 }
 
+
+.A1 {
+    color: blue;
+    .bordered {
+        border-top: solid 20px black;
+        border-bottom: 10px blue;
+
+    }
+}
 @media (max-width: 768px) {
     .main-content {
       background: grey;
