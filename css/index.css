@@ -127,8 +127,8 @@ table {
   border-spacing: 0;
 }
 .bordered {
-  border-top: dotted 30px black;
-  border-bottom: solid 12px black;
+  border-top: dotted 40px black;
+  border-bottom: solid 20x black;
 }
 * {
   box-sizing: border-box;
@@ -137,6 +137,7 @@ html,
 body {
   height: 50%;
   font-family: 'Arial', sans-serif;
+  justify-content: flex-end justify-content flex end;
 }
 h1,
 h2,
@@ -145,7 +146,7 @@ h4,
 h5 {
   font-family: 'Arial', cursive;
   letter-spacing: 1px;
-  margin-bottom: 10px;
+  margin-bottom: 1px;
 }
 .container {
   width: 880px;
